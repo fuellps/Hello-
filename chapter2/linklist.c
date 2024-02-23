@@ -5,7 +5,7 @@ typedef struct LinkNode{
     struct LinkNode *next;
 }LinkNode;
 
-// 析构函数
+// 构造函数
 LinkNode* newLinkNode(int val){
     LinkNode * node = malloc(sizeof(LinkNode));
     if(node == NULL){
@@ -24,7 +24,7 @@ typedef struct LinkNode{
     struct LinkNode *prev;
     struct LinkNode *next;
 } LinkNode;
-析构函数
+构造函数
 LinkNode* newLinkNode(int val){
     LinkNode* node = (LinkNode*)malloc(sizeof(LinkNode));
     node->val = val;
