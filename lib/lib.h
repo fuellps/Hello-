@@ -4,3 +4,4 @@
 #include <string.h>
 #include <ctype.h>
 #include <math.h>
+#include <assert.h>
